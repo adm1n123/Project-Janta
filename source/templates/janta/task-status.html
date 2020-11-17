@@ -68,7 +68,7 @@
                                         {% if task.task_type == 'Text' %}
                                             Submission: {{ submission.submission }}
                                         {% elif task.task_type == 'Upload' %}
-                                            Submission: <a href="/static/uploaded-files/{{ submission.submission }}" download><button>Download file</button></a>
+                                            Submission: <a href="/static/uploaded-files/{{ submission.submission }}" download><button class="btn btn-primary btn-l btn-outline-light float-right"><i class="fa fa-download"></i> Download file</button></a>
                                         {% endif %}
                                         <br>
                                         completed on: {{ submission.completion_time }}

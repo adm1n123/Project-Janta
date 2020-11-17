@@ -275,8 +275,11 @@ def validate_add_user(form_data, moderator):
         message = "Invalid Handles"
         return status, message, handle_list
 
-    handle_list = set(x.strip() for x in re.compile(regex).split(handles))
-    handle_list = set(x for x in handle_list if is_handle(x))
+    try:
+        handle_list = set(x.strip() for x in re.compile(regex).split(handles))
+        handle_list = set(x for x in handle_list if is_handle(x))
+    except:
+        return status, message, handle_list
 
     if len(handle_list) == 0:
         status = False
@@ -416,7 +419,7 @@ def validate_send_message(form_data):
 
 def convert_to_json(unread_count, notifications):
     """
-    This function convert data into json formate.
+    This function convert data into json format.
         
     :param unread_count: no of unread notifications
     :param notifications:  unread notifications
