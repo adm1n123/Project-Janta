@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "janta/header.html" %}
+
+    <!--Custom lib -->
+</head>
+<body>
+
+{% include "janta/nav-links.html" %}
+
+<!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="/static/img/avataaars.svg" alt="" width="150" height="150"/>
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0"> Profile </h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-1">
+<h4 style="text-align:left;">
+                        {% if profile_user %}
+
+                            <ul>
+                                <li>Name: {{ profile_user.user_name }}</li>
+                                <li>Handle: {{ profile_user.user_handle }}</li>
+                                <li>Email: {{ profile_user.user_email }}</li>
+                                <li>Account Type: {{ profile_user.user_type }}</li>
+                                <li>Gender: {{ profile_user.user_gender }}</li>
+                                <li>About: {{ profile_user.user_about }}</li>
+                                <li>GIT: {{ profile_user.git_link }}</li>
+                                <li>Linkedin: {{ profile_user.linkedin_link }}</li>
+                                {% if user.user_type == "Moderator" and profile_user.user_type == "User" or user.user_handle == profile_user.user_handle %}
+                                    <li>Last login: {{ profile_user.last_login }}</li>
+                                {% endif %}
+                                <li>Member since: {{ profile_user.reg_time }}</li>
+                           </ul>
+                            {% if user.user_handle == profile_user.user_handle %}
+                                <a href="/janta/edit-profile/"><button class="btn btn-primary btn-l btn-outline-light"><i class="fa fa-edit"></i> Edit Profile</button></a>
+                                <a href="/janta/change-password/"><button class="btn btn-primary btn-l btn-outline-light"><i class="fa fa-key"></i> Change Password</button></a>
+                            {% else %}
+                                <a href="/janta/messages/?receiver={{ profile_user.user_handle }}"><button class="btn btn-primary btn-l btn-outline-light"><i class="fa fa-envelope"></i> Message</button></a>
+                            {% endif %}
+                        {% else %}
+                                   <p>Profile not found</p>
+                        {% endif %}
+</h4>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="container p-3 my-3 border">
+                            {% include "janta/notification-div.html" %}
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </header>
+
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "janta/header.html" %}
+
+    <!--Custom lib -->
+</head>
+<body>
+
+{% include "janta/nav-links.html" %}
+
+
+<!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0"> Task status </h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1">
+
+                            <ul>
+                                <li>Task Id: {{ task.task_id }}</li>
+                                <li>Type: {{ task.task_type }}</li>
+                                <li>Description: {{ task.description }}</li>
+                                <li>Deadline: {{ task.deadline }}</li>
+                                <li>Created on: {{ task.creation_time }}</li>
+                            </ul>
+                            <div>
+                                Completed by:
+                                {% for handle in sub_status.Accepted %}
+                                    <a style="color: white;" href="/janta/profile/?handle={{ handle }}"> {{ handle }}</a>, &nbsp;
+                                {% empty %}
+                                    <p> No one completed the task </p>
+                                {% endfor %}
+                            </div>
+                            <div>
+                                Submitted by:
+                                {% for handle in sub_status.Submitted %}
+                                    <a style="color: white;" href="/janta/profile/?handle={{ handle }}"> {{ handle }}</a>, &nbsp;
+                                {% empty %}
+                                    No submitted task
+                                {% endfor %}
+                            </div>
+                            <div>
+                                Legends:
+                                {% for handle in sub_status.Legends %}
+                                    <a style="color: white;" href="/janta/profile/?handle={{ handle }}"> {{ handle }}</a>, &nbsp;
+                                {% empty %}
+                                    No legends
+                                {% endfor %}
+                            </div>
+
+                            <h3>Submissions</h3>
+                            <table>
+                                {% for submission in submissions %}
+                                    <tr style="text-align:left; border: 2px solid white;">
+                                        <td>Handle: {{ submission.handle }}<br>
+                                        {% if task.task_type == 'Text' %}
+                                            Submission: {{ submission.submission }}
+                                        {% elif task.task_type == 'Upload' %}
+                                            Submission: <a href="/static/uploaded-files/{{ submission.submission }}" download><button>Download file</button></a>
+                                        {% endif %}
+                                        <br>
+                                        completed on: {{ submission.completion_time }}
+                                        <br>
+                                            <a href="/janta/accept-submission/?task_id={{ task.task_id }}&handle={{ submission.handle }}"><button class="btn btn-primary btn-l btn-outline-light float-right"><i class="fa fa-check"></i> Accept</button></a>
+                                            <a href="/janta/reject-submission/?task_id={{ task.task_id }}&handle={{ submission.handle }}"><button class="btn btn-primary btn-l btn-outline-light float-right"><i class="fa fa-times"></i> Reject</button></a>
+                                        </td>
+                                    </tr>
+                                {% empty %}
+                                    <p> No pending submission to accept </p>
+                                {% endfor %}
+                            </table>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="container p-3 my-3 border">
+                            {% include "janta/notification-div.html" %}
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+</body>
+</html>

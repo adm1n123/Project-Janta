@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "janta/header.html" %}
+
+    <!--Custom lib -->
+</head>
+<body>
+
+{% include "janta/nav-links.html" %}
+
+<!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0"> User's Home </h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6 offset-md-1">
+                            <h3>Recently assigned tasks</h3>
+                            {% for task in rcnt_ong_tasks %}
+                                <div class="container p-3 my-3 border">
+                                <ul>
+                                    <li>Task Id: {{ task.task_id }}</li>
+                                    <li>Type: {{ task.task_type }}</li>
+                                    <li>Description: {{ task.description }}</li>
+                                    <li>Deadline: {{ task.deadline }}</li>
+                                </ul>
+                                <form action='/janta/submit-task/' method='POST' enctype="multipart/form-data">
+                                    {% csrf_token %}
+                                    <input type="hidden" value="{{ task.task_id }}" name="task_id" />
+                                    {% if task.task_type == "Text" %}
+                                        Input text: <input type="text" required name="input_txt">
+                                    {% elif task.task_type == "Upload" %}
+                                        Upload file: <input type="file" required name="input_file" placeholder="[a-zA-Z0-9_. ]">
+                                    {% endif %}
+                                    <br><br>
+                                    <input class="btn btn-primary btn-l btn-outline-light" type="submit" value="Submit">
+                                </form>
+                                </div>
+                                <br><br>
+                            {% empty %}
+                                <p> No recent tasks </p>
+                            {% endfor %}
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="container p-3 my-3 border">
+                                {% include "janta/notification-div.html" %}
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </header>
+
+</body>
+</html>

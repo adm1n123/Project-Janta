@@ -1,0 +1,2124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>janta package &#8212; janta 2020 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="janta.migrations package" href="janta.migrations.html" />
+    <link rel="prev" title="ProjectJanta package" href="ProjectJanta.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="janta-package">
+<h1>janta package<a class="headerlink" href="#janta-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="janta.migrations.html">janta.migrations package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="janta.migrations.html#module-janta.migrations">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-janta.admin">
+<span id="janta-admin-module"></span><h2>janta.admin module<a class="headerlink" href="#module-janta.admin" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-janta.apps">
+<span id="janta-apps-module"></span><h2>janta.apps module<a class="headerlink" href="#module-janta.apps" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="janta.apps.JantaConfig">
+<em class="property">class </em><code class="descclassname">janta.apps.</code><code class="descname">JantaConfig</code><span class="sig-paren">(</span><em>app_name</em>, <em>app_module</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.apps.JantaConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.apps.config.AppConfig</span></code></p>
+<dl class="attribute">
+<dt id="janta.apps.JantaConfig.name">
+<code class="descname">name</code><em class="property"> = 'janta'</em><a class="headerlink" href="#janta.apps.JantaConfig.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-janta.forms">
+<span id="janta-forms-module"></span><h2>janta.forms module<a class="headerlink" href="#module-janta.forms" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="janta.forms.AddUserForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">AddUserForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.AddUserForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Add User</p>
+<dl class="attribute">
+<dt id="janta.forms.AddUserForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'regex': &lt;django.forms.fields.CharField object&gt;, 'user_handles': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.AddUserForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.AddUserForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'regex': &lt;django.forms.fields.CharField object&gt;, 'user_handles': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.AddUserForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.AddUserForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.AddUserForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.ChangePasswordForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">ChangePasswordForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.ChangePasswordForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Change password</p>
+<dl class="attribute">
+<dt id="janta.forms.ChangePasswordForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'conf_pass': &lt;django.forms.fields.CharField object&gt;, 'new_password': &lt;django.forms.fields.CharField object&gt;, 'old_password': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.ChangePasswordForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.ChangePasswordForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'conf_pass': &lt;django.forms.fields.CharField object&gt;, 'new_password': &lt;django.forms.fields.CharField object&gt;, 'old_password': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.ChangePasswordForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.ChangePasswordForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.ChangePasswordForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.CreateTaskForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">CreateTaskForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.CreateTaskForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Create Task</p>
+<dl class="attribute">
+<dt id="janta.forms.CreateTaskForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'deadline': &lt;django.forms.fields.DateField object&gt;, 'description': &lt;django.forms.fields.CharField object&gt;, 'task_id': &lt;django.forms.fields.CharField object&gt;, 'task_type': &lt;django.forms.fields.ChoiceField object&gt;}</em><a class="headerlink" href="#janta.forms.CreateTaskForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.CreateTaskForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'deadline': &lt;django.forms.fields.DateField object&gt;, 'description': &lt;django.forms.fields.CharField object&gt;, 'task_id': &lt;django.forms.fields.CharField object&gt;, 'task_type': &lt;django.forms.fields.ChoiceField object&gt;}</em><a class="headerlink" href="#janta.forms.CreateTaskForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.CreateTaskForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.CreateTaskForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.CreateTaskForm.task_type_choices">
+<code class="descname">task_type_choices</code><em class="property"> = [('Info', 'Info'), ('Text', 'Text input'), ('Upload', 'File upload')]</em><a class="headerlink" href="#janta.forms.CreateTaskForm.task_type_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.DeleteTaskForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">DeleteTaskForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.DeleteTaskForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Delete Task</p>
+<dl class="attribute">
+<dt id="janta.forms.DeleteTaskForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'task_id': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.DeleteTaskForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.DeleteTaskForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'task_id': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.DeleteTaskForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.DeleteTaskForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.DeleteTaskForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.EditProfileForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">EditProfileForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.EditProfileForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Edit Profile</p>
+<dl class="attribute">
+<dt id="janta.forms.EditProfileForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'about': &lt;django.forms.fields.CharField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'gender': &lt;django.forms.fields.ChoiceField object&gt;, 'git_link': &lt;django.forms.fields.URLField object&gt;, 'linkedin_link': &lt;django.forms.fields.URLField object&gt;, 'name': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.EditProfileForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.EditProfileForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'about': &lt;django.forms.fields.CharField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'gender': &lt;django.forms.fields.ChoiceField object&gt;, 'git_link': &lt;django.forms.fields.URLField object&gt;, 'linkedin_link': &lt;django.forms.fields.URLField object&gt;, 'name': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.EditProfileForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.EditProfileForm.gender_choices">
+<code class="descname">gender_choices</code><em class="property"> = [('Male', 'Male'), ('Female', 'Female')]</em><a class="headerlink" href="#janta.forms.EditProfileForm.gender_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.EditProfileForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.EditProfileForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.LoginForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">LoginForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.LoginForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form For Login</p>
+<dl class="attribute">
+<dt id="janta.forms.LoginForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'handle': &lt;django.forms.fields.CharField object&gt;, 'password': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.LoginForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.LoginForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'handle': &lt;django.forms.fields.CharField object&gt;, 'password': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.LoginForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.LoginForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.LoginForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.RegistrationForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">RegistrationForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.RegistrationForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Registration</p>
+<dl class="attribute">
+<dt id="janta.forms.RegistrationForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'conf_pass': &lt;django.forms.fields.CharField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'gender': &lt;django.forms.fields.ChoiceField object&gt;, 'handle': &lt;django.forms.fields.CharField object&gt;, 'name': &lt;django.forms.fields.CharField object&gt;, 'password': &lt;django.forms.fields.CharField object&gt;, 'user_type': &lt;django.forms.fields.ChoiceField object&gt;}</em><a class="headerlink" href="#janta.forms.RegistrationForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.RegistrationForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'conf_pass': &lt;django.forms.fields.CharField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'gender': &lt;django.forms.fields.ChoiceField object&gt;, 'handle': &lt;django.forms.fields.CharField object&gt;, 'name': &lt;django.forms.fields.CharField object&gt;, 'password': &lt;django.forms.fields.CharField object&gt;, 'user_type': &lt;django.forms.fields.ChoiceField object&gt;}</em><a class="headerlink" href="#janta.forms.RegistrationForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.RegistrationForm.gender_choices">
+<code class="descname">gender_choices</code><em class="property"> = [('Male', 'Male'), ('Female', 'Female')]</em><a class="headerlink" href="#janta.forms.RegistrationForm.gender_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.RegistrationForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.RegistrationForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.RegistrationForm.user_type_choices">
+<code class="descname">user_type_choices</code><em class="property"> = [('User', 'User'), ('Moderator', 'Moderator')]</em><a class="headerlink" href="#janta.forms.RegistrationForm.user_type_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.RemoveUserForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">RemoveUserForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.RemoveUserForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Remove User</p>
+<dl class="attribute">
+<dt id="janta.forms.RemoveUserForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'user_handle': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.RemoveUserForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.RemoveUserForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'user_handle': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.RemoveUserForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.RemoveUserForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.RemoveUserForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.forms.SendMessageForm">
+<em class="property">class </em><code class="descclassname">janta.forms.</code><code class="descname">SendMessageForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>field_order=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.forms.SendMessageForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Form for Send Message</p>
+<dl class="attribute">
+<dt id="janta.forms.SendMessageForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'text': &lt;django.forms.fields.CharField object&gt;, 'user_handle': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.SendMessageForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.SendMessageForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'text': &lt;django.forms.fields.CharField object&gt;, 'user_handle': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#janta.forms.SendMessageForm.declared_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="janta.forms.SendMessageForm.media">
+<code class="descname">media</code><a class="headerlink" href="#janta.forms.SendMessageForm.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-janta.models">
+<span id="janta-models-module"></span><h2>janta.models module<a class="headerlink" href="#module-janta.models" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="janta.models.Messages">
+<em class="property">class </em><code class="descclassname">janta.models.</code><code class="descname">Messages</code><a class="headerlink" href="#janta.models.Messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>this class for Message
+Attributes:</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">id:</th><td class="field-body">message id</td>
+</tr>
+<tr class="field-even field"><th class="field-name">sender:</th><td class="field-body">message sender</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">receiver:</th><td class="field-body">message receiver</td>
+</tr>
+<tr class="field-even field"><th class="field-name">text:</th><td class="field-body">text of message</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">msg_time:</th><td class="field-body">time of message</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<dl class="method">
+<dt id="janta.models.Messages.set_message">
+<code class="descname">set_message</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.Messages.set_message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.models.Notification">
+<em class="property">class </em><code class="descclassname">janta.models.</code><code class="descname">Notification</code><a class="headerlink" href="#janta.models.Notification" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>this class for get  notifications</p>
+<dl class="method">
+<dt id="janta.models.Notification.set_notification">
+<code class="descname">set_notification</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.Notification.set_notification" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.models.Task">
+<em class="property">class </em><code class="descclassname">janta.models.</code><code class="descname">Task</code><a class="headerlink" href="#janta.models.Task" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="docutils">
+<dt>this class for task Attributes: </dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">task_id:</th><td class="field-body">task id</td>
+</tr>
+<tr class="field-even field"><th class="field-name">owner:</th><td class="field-body">task owner</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">task_type:</th><td class="field-body">task type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">description:</th><td class="field-body">task description</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">deadline:</th><td class="field-body">task deadline</td>
+</tr>
+<tr class="field-even field"><th class="field-name">creation_time:</th><td class="field-body">time of task creation</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="method">
+<dt id="janta.models.Task.set_task">
+<code class="descname">set_task</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.Task.set_task" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.models.User">
+<em class="property">class </em><code class="descclassname">janta.models.</code><code class="descname">User</code><a class="headerlink" href="#janta.models.User" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="docutils">
+<dt>this class for User Attributes:</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">user_handle:</th><td class="field-body">user’s handle</td>
+</tr>
+<tr class="field-even field"><th class="field-name">user_type:</th><td class="field-body">user’s type</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">user_name:</th><td class="field-body">user’s name</td>
+</tr>
+<tr class="field-even field"><th class="field-name">user_email:</th><td class="field-body">eamil address</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">user_gender:</th><td class="field-body">gender</td>
+</tr>
+<tr class="field-even field"><th class="field-name">user_about:</th><td class="field-body">user profile</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="method">
+<dt id="janta.models.User.set_user">
+<code class="descname">set_user</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.User.set_user" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.models.UserModeratorMap">
+<em class="property">class </em><code class="descclassname">janta.models.</code><code class="descname">UserModeratorMap</code><a class="headerlink" href="#janta.models.UserModeratorMap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="docutils">
+<dt>this class for User to Moderator Map Attributes:</dt>
+<dd>:user:user
+:moderator: moderator
+:map_time: Mapping time</dd>
+</dl>
+<dl class="method">
+<dt id="janta.models.UserModeratorMap.set_user_moderator">
+<code class="descname">set_user_moderator</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.UserModeratorMap.set_user_moderator" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="janta.models.UserTaskMap">
+<em class="property">class </em><code class="descclassname">janta.models.</code><code class="descname">UserTaskMap</code><a class="headerlink" href="#janta.models.UserTaskMap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>this class for User to Task Map
+Attributes:</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">task_id:</th><td class="field-body">task id</td>
+</tr>
+<tr class="field-even field"><th class="field-name">handle:</th><td class="field-body">handle which complete the task</td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">completion_time:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">task completion time</td>
+</tr>
+</tbody>
+</table>
+<p>:submission:task submited or not 
+:accepted: task accepted or not</p>
+</div></blockquote>
+<dl class="method">
+<dt id="janta.models.UserTaskMap.set_user_task_map">
+<code class="descname">set_user_task_map</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.UserTaskMap.set_user_task_map" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.accept_submission">
+<code class="descclassname">janta.models.</code><code class="descname">accept_submission</code><span class="sig-paren">(</span><em>task_id</em>, <em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.accept_submission" title="Permalink to this definition">¶</a></dt>
+<dd><p>accept submission</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.add_users">
+<code class="descclassname">janta.models.</code><code class="descname">add_users</code><span class="sig-paren">(</span><em>moderator</em>, <em>user_handles</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.add_users" title="Permalink to this definition">¶</a></dt>
+<dd><p>add user</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.admin_del_moderator">
+<code class="descclassname">janta.models.</code><code class="descname">admin_del_moderator</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.admin_del_moderator" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete Moderator</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.admin_del_task">
+<code class="descclassname">janta.models.</code><code class="descname">admin_del_task</code><span class="sig-paren">(</span><em>task_id</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.admin_del_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete task for task_id</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.admin_del_user">
+<code class="descclassname">janta.models.</code><code class="descname">admin_del_user</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.admin_del_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete user</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.admin_get_task_list">
+<code class="descclassname">janta.models.</code><code class="descname">admin_get_task_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.admin_get_task_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>return Task List</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.admin_get_usr_modr_list">
+<code class="descclassname">janta.models.</code><code class="descname">admin_get_usr_modr_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.admin_get_usr_modr_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>return User Moderator list</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.change_password">
+<code class="descclassname">janta.models.</code><code class="descname">change_password</code><span class="sig-paren">(</span><em>handle</em>, <em>old_password</em>, <em>new_password</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.change_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>change password</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.delete_message">
+<code class="descclassname">janta.models.</code><code class="descname">delete_message</code><span class="sig-paren">(</span><em>msg_id</em>, <em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.delete_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete message</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.delete_task">
+<code class="descclassname">janta.models.</code><code class="descname">delete_task</code><span class="sig-paren">(</span><em>task_id</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.delete_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_added_user">
+<code class="descclassname">janta.models.</code><code class="descname">get_added_user</code><span class="sig-paren">(</span><em>user</em>, <em>moderator</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_added_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>get added user</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_messages">
+<code class="descclassname">janta.models.</code><code class="descname">get_messages</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>get message</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_my_tasks">
+<code class="descclassname">janta.models.</code><code class="descname">get_my_tasks</code><span class="sig-paren">(</span><em>owner</em>, <em>recent=False</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_my_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>get my task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_not_accepted_submissions">
+<code class="descclassname">janta.models.</code><code class="descname">get_not_accepted_submissions</code><span class="sig-paren">(</span><em>task_id</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_not_accepted_submissions" title="Permalink to this definition">¶</a></dt>
+<dd><p>get not accepted submissions</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_notifications">
+<code class="descclassname">janta.models.</code><code class="descname">get_notifications</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_notifications" title="Permalink to this definition">¶</a></dt>
+<dd><p>get unread notifications</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_ongoing_tasks">
+<code class="descclassname">janta.models.</code><code class="descname">get_ongoing_tasks</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_ongoing_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>get ongoing tasks</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_overdue_tasks">
+<code class="descclassname">janta.models.</code><code class="descname">get_overdue_tasks</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_overdue_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>get overdue tasks</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_recent_ongoing_tasks">
+<code class="descclassname">janta.models.</code><code class="descname">get_recent_ongoing_tasks</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_recent_ongoing_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>get recent ongoing tasks</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_submission_status">
+<code class="descclassname">janta.models.</code><code class="descname">get_submission_status</code><span class="sig-paren">(</span><em>task_id</em>, <em>moderator</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_submission_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>get submission status</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_submitted_tasks">
+<code class="descclassname">janta.models.</code><code class="descname">get_submitted_tasks</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_submitted_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>get submitted tasks</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_task">
+<code class="descclassname">janta.models.</code><code class="descname">get_task</code><span class="sig-paren">(</span><em>task_id</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>get task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_user">
+<code class="descclassname">janta.models.</code><code class="descname">get_user</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>get user</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_user_by_type">
+<code class="descclassname">janta.models.</code><code class="descname">get_user_by_type</code><span class="sig-paren">(</span><em>handle</em>, <em>user_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_user_by_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>get user by type</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.get_user_task_map">
+<code class="descclassname">janta.models.</code><code class="descname">get_user_task_map</code><span class="sig-paren">(</span><em>task_id</em>, <em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.get_user_task_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>get user task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.insert_task">
+<code class="descclassname">janta.models.</code><code class="descname">insert_task</code><span class="sig-paren">(</span><em>task_id</em>, <em>owner</em>, <em>description</em>, <em>task_type</em>, <em>deadline</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.insert_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>insert task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.mark_as_read">
+<code class="descclassname">janta.models.</code><code class="descname">mark_as_read</code><span class="sig-paren">(</span><em>noti_id</em>, <em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.mark_as_read" title="Permalink to this definition">¶</a></dt>
+<dd><p>update the notifications mark as read</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.modify_task">
+<code class="descclassname">janta.models.</code><code class="descname">modify_task</code><span class="sig-paren">(</span><em>task_id</em>, <em>owner</em>, <em>description</em>, <em>task_type</em>, <em>deadline</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.modify_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>modify task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.notify_mapped_users">
+<code class="descclassname">janta.models.</code><code class="descname">notify_mapped_users</code><span class="sig-paren">(</span><em>moderator</em>, <em>noti_type</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.notify_mapped_users" title="Permalink to this definition">¶</a></dt>
+<dd><p>send notification to all mapped user</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.profile_edit">
+<code class="descclassname">janta.models.</code><code class="descname">profile_edit</code><span class="sig-paren">(</span><em>handle</em>, <em>name</em>, <em>emailid</em>, <em>gender</em>, <em>about</em>, <em>git_link</em>, <em>linkedin_link</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.profile_edit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edit Profile</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.reject_submission">
+<code class="descclassname">janta.models.</code><code class="descname">reject_submission</code><span class="sig-paren">(</span><em>task_id</em>, <em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.reject_submission" title="Permalink to this definition">¶</a></dt>
+<dd><p>reject submission</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.remove_user">
+<code class="descclassname">janta.models.</code><code class="descname">remove_user</code><span class="sig-paren">(</span><em>user</em>, <em>moderator</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.remove_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>remove user</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.reset_db">
+<code class="descclassname">janta.models.</code><code class="descname">reset_db</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.reset_db" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="janta.models.send_message">
+<code class="descclassname">janta.models.</code><code class="descname">send_message</code><span class="sig-paren">(</span><em>sender</em>, <em>receiver</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.send_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>send message</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.sent_notification">
+<code class="descclassname">janta.models.</code><code class="descname">sent_notification</code><span class="sig-paren">(</span><em>handle</em>, <em>noti_type</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.sent_notification" title="Permalink to this definition">¶</a></dt>
+<dd><p>send notification</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.submit_task">
+<code class="descclassname">janta.models.</code><code class="descname">submit_task</code><span class="sig-paren">(</span><em>task_id</em>, <em>handle</em>, <em>submission</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.submit_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>submit task</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.user_register">
+<code class="descclassname">janta.models.</code><code class="descname">user_register</code><span class="sig-paren">(</span><em>handle</em>, <em>password</em>, <em>user_type</em>, <em>name</em>, <em>emailid</em>, <em>gender</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.user_register" title="Permalink to this definition">¶</a></dt>
+<dd><p>User Register</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.models.validate_credentials">
+<code class="descclassname">janta.models.</code><code class="descname">validate_credentials</code><span class="sig-paren">(</span><em>handle</em>, <em>password</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.models.validate_credentials" title="Permalink to this definition">¶</a></dt>
+<dd><p>validate Credentials</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-janta.mydb">
+<span id="janta-mydb-module"></span><h2>janta.mydb module<a class="headerlink" href="#module-janta.mydb" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="janta.mydb.create_schema">
+<code class="descclassname">janta.mydb.</code><code class="descname">create_schema</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#janta.mydb.create_schema" title="Permalink to this definition">¶</a></dt>
+<dd><p>”
+create Schema</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.mydb.dictfetchall">
+<code class="descclassname">janta.mydb.</code><code class="descname">dictfetchall</code><span class="sig-paren">(</span><em>cursor</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.mydb.dictfetchall" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all rows from a cursor as a dict</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.mydb.execute_query">
+<code class="descclassname">janta.mydb.</code><code class="descname">execute_query</code><span class="sig-paren">(</span><em>stmt</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.mydb.execute_query" title="Permalink to this definition">¶</a></dt>
+<dd><p>”
+execute query and return this row</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.mydb.execute_update">
+<code class="descclassname">janta.mydb.</code><code class="descname">execute_update</code><span class="sig-paren">(</span><em>stmt</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.mydb.execute_update" title="Permalink to this definition">¶</a></dt>
+<dd><p>”
+update query and return this row</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.mydb.namedtuplefetchall">
+<code class="descclassname">janta.mydb.</code><code class="descname">namedtuplefetchall</code><span class="sig-paren">(</span><em>cursor</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.mydb.namedtuplefetchall" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all rows from a cursor as a namedtuple</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-janta.tests">
+<span id="janta-tests-module"></span><h2>janta.tests module<a class="headerlink" href="#module-janta.tests" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-janta.viewhelper">
+<span id="janta-viewhelper-module"></span><h2>janta.viewhelper module<a class="headerlink" href="#module-janta.viewhelper" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="janta.viewhelper.convert_to_json">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">convert_to_json</code><span class="sig-paren">(</span><em>unread_count</em>, <em>notifications</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.convert_to_json" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function convert data into json formate.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>unread_count</strong> – no of unread notifications</li>
+<li><strong>notifications</strong> – unread notifications</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">response_json:</th><td class="field-body">notifications in json</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_admin">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_admin</code><span class="sig-paren">(</span><em>user_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_admin" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user type is Admin or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_type</strong> – user type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Admin</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Admin</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_description">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_description</code><span class="sig-paren">(</span><em>description</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_description" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that description is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>description</strong> – description</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_email">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_email</code><span class="sig-paren">(</span><em>email</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_email" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that email is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>email</strong> – user email</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_female">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_female</code><span class="sig-paren">(</span><em>gender</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_female" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user  is Female or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gender</strong> – user gender</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Female</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Female</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_file_name">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_file_name</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_file_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that file name is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>name</strong> – file name</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_gender">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_gender</code><span class="sig-paren">(</span><em>gender</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_gender" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user have valid  gender or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gender</strong> – user gender</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid gender</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_handle">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_handle</code><span class="sig-paren">(</span><em>handle</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_handle" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that handle is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>handle</strong> – handle of user</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_info">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_info</code><span class="sig-paren">(</span><em>task_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that task type is Info or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>task_type</strong> – task type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Info</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Info</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_male">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_male</code><span class="sig-paren">(</span><em>gender</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_male" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user  is male or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gender</strong> – user gender</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Male</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Male</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_moderator">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_moderator</code><span class="sig-paren">(</span><em>user_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_moderator" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user type is Moderator or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_type</strong> – user type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Moderator</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Moderator</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_name">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_name</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that name is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>name</strong> – name of user</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_password">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_password</code><span class="sig-paren">(</span><em>password</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that password is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>password</strong> – password of handle</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_task_id">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_task_id</code><span class="sig-paren">(</span><em>task_id</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_task_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that task id is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>task_id</strong> – task id</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_task_type">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_task_type</code><span class="sig-paren">(</span><em>task_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_task_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that task type is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>task_type</strong> – task type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_text">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_text</code><span class="sig-paren">(</span><em>task_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that task type is Text or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>task_type</strong> – task type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Text</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Text</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_upload">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_upload</code><span class="sig-paren">(</span><em>task_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_upload" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that task type is Upload or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>task_type</strong> – task type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if Upload</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not Upload</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_user">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_user</code><span class="sig-paren">(</span><em>user_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user type is User or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_type</strong> – user type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if User</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not User</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.is_user_type">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">is_user_type</code><span class="sig-paren">(</span><em>user_type</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.is_user_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function check that user_type is valid or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_type</strong> – user type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">True:</th><td class="field-body">if valid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">False:</th><td class="field-body">if not valid</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.save_file">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">save_file</code><span class="sig-paren">(</span><em>file</em>, <em>handle</em>, <em>task_id</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.save_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function save the file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>file</strong> – detail of the file</li>
+<li><strong>handle</strong> – handle of user</li>
+<li><strong>task_id</strong> – task id</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">return the filename</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.set_session">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">set_session</code><span class="sig-paren">(</span><em>request</em>, <em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.set_session" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function set the session for user.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>request</strong> (<em>http request</em>) – the request sent for the session</li>
+<li><strong>user</strong> – user details</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">redirecting to the page according to http request</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_add_user">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_add_user</code><span class="sig-paren">(</span><em>form_data</em>, <em>moderator</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_add_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the add_user details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>form_data</strong> – detail of the  user’s  which are adding in this moderator</li>
+<li><strong>moderator</strong> – moderator details</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">handle_list:</th><td class="field-body">list of handle which are adding</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_change_password">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_change_password</code><span class="sig-paren">(</span><em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_change_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the change_password details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>form_data</strong> – user details</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_create_task">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_create_task</code><span class="sig-paren">(</span><em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_create_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the create_task details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>form_data</strong> – task details</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_delete_task">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_delete_task</code><span class="sig-paren">(</span><em>moderator</em>, <em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_delete_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the delete_task details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>form_data</strong> – detail of task</li>
+<li><strong>moderator</strong> – moderator details</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_login">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_login</code><span class="sig-paren">(</span><em>handle</em>, <em>password</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_login" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the login Details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>handle</strong> – handle of user</li>
+<li><strong>password</strong> – user password</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status:</th><td class="field-body"><p class="first">status</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Message:</th><td class="field-body"><p class="first last">message</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_modify_task">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_modify_task</code><span class="sig-paren">(</span><em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_modify_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the modify_task details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>form_data</strong> – task details</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Message:</th><td class="field-body">message</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_profile_edit">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_profile_edit</code><span class="sig-paren">(</span><em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_profile_edit" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the profile_edit details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>form_data</strong> – user details</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_registration">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_registration</code><span class="sig-paren">(</span><em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_registration" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the registration details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>form_data</strong> – user details</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_remove_user">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_remove_user</code><span class="sig-paren">(</span><em>form_data</em>, <em>moderator</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_remove_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the remove_user details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>form_data</strong> – detail of the  user  which are removeing in this moderator</li>
+<li><strong>moderator</strong> – moderator details</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">userhandle:</th><td class="field-body">handle of user</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.viewhelper.validate_send_message">
+<code class="descclassname">janta.viewhelper.</code><code class="descname">validate_send_message</code><span class="sig-paren">(</span><em>form_data</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.viewhelper.validate_send_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function validate the send_message details.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>form_data</strong> – message details</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">status after send message</td>
+</tr>
+<tr class="field-even field"><th class="field-name">message:</th><td class="field-body">message after send message</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-janta.views">
+<span id="janta-views-module"></span><h2>janta.views module<a class="headerlink" href="#module-janta.views" title="Permalink to this headline">¶</a></h2>
+<p>Create your views here.</p>
+<p>This program deals with task function in our Janta application. 
+Different functions related to task will be handled.</p>
+<dl class="function">
+<dt id="janta.views.accept_submission">
+<code class="descclassname">janta.views.</code><code class="descname">accept_submission</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.accept_submission" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function accepts the submitted task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.add_users">
+<code class="descclassname">janta.views.</code><code class="descname">add_users</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.add_users" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function add users by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.admin">
+<code class="descclassname">janta.views.</code><code class="descname">admin</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.admin" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function maintains the admin page.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.admin_del_moderator">
+<code class="descclassname">janta.views.</code><code class="descname">admin_del_moderator</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.admin_del_moderator" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to delete the moderator by admin.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.admin_del_task">
+<code class="descclassname">janta.views.</code><code class="descname">admin_del_task</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.admin_del_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to delete the tasks by admin.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.admin_del_user">
+<code class="descclassname">janta.views.</code><code class="descname">admin_del_user</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.admin_del_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to delete the user by admin.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.change_password">
+<code class="descclassname">janta.views.</code><code class="descname">change_password</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.change_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to change password for the user.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.create_task">
+<code class="descclassname">janta.views.</code><code class="descname">create_task</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.create_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function creates the task by request.</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">type request:</th><td class="field-body">http request</td>
+</tr>
+<tr class="field-even field"><th class="field-name">param request:</th><td class="field-body">the request sent for the task</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">return:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.delete_messages">
+<code class="descclassname">janta.views.</code><code class="descname">delete_messages</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.delete_messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to delete the messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.delete_task">
+<code class="descclassname">janta.views.</code><code class="descname">delete_task</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.delete_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function deletes the task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.edit_profile">
+<code class="descclassname">janta.views.</code><code class="descname">edit_profile</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.edit_profile" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to edit the profile page of the user.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.get_messages">
+<code class="descclassname">janta.views.</code><code class="descname">get_messages</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.get_messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to get the messages.</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">type request:</th><td class="field-body">http request</td>
+</tr>
+<tr class="field-even field"><th class="field-name">param request:</th><td class="field-body">the request sent for the task</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">return:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.get_notifications">
+<code class="descclassname">janta.views.</code><code class="descname">get_notifications</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.get_notifications" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to get the notifications.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.index">
+<code class="descclassname">janta.views.</code><code class="descname">index</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.index" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is the index page of user.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.login">
+<code class="descclassname">janta.views.</code><code class="descname">login</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function deals with the login of user by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.logout">
+<code class="descclassname">janta.views.</code><code class="descname">logout</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.logout" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function deals with the logout of the user by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.mark_as_read">
+<code class="descclassname">janta.views.</code><code class="descname">mark_as_read</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.mark_as_read" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to read the messages and mark them as read.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.moderator_home">
+<code class="descclassname">janta.views.</code><code class="descname">moderator_home</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.moderator_home" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function moderates the form request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.modify_task">
+<code class="descclassname">janta.views.</code><code class="descname">modify_task</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.modify_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function modifies the task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.my_tasks">
+<code class="descclassname">janta.views.</code><code class="descname">my_tasks</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.my_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function handles the functionality of the task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.ongoing_tasks">
+<code class="descclassname">janta.views.</code><code class="descname">ongoing_tasks</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.ongoing_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function maintains the ongoing task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.overdue_tasks">
+<code class="descclassname">janta.views.</code><code class="descname">overdue_tasks</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.overdue_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function maintains the overdue task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.profile">
+<code class="descclassname">janta.views.</code><code class="descname">profile</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.profile" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is the profile page of the user.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.register">
+<code class="descclassname">janta.views.</code><code class="descname">register</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.register" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function registers the user by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.reject_submission">
+<code class="descclassname">janta.views.</code><code class="descname">reject_submission</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.reject_submission" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function rejects the submitted task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.remove_user">
+<code class="descclassname">janta.views.</code><code class="descname">remove_user</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.remove_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function removes the user by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.reset_database">
+<code class="descclassname">janta.views.</code><code class="descname">reset_database</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.reset_database" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to reset the database by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.send_message">
+<code class="descclassname">janta.views.</code><code class="descname">send_message</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.send_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is use to send the messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.submit_task">
+<code class="descclassname">janta.views.</code><code class="descname">submit_task</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.submit_task" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function submits the task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.submitted_tasks">
+<code class="descclassname">janta.views.</code><code class="descname">submitted_tasks</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.submitted_tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function keeps track of the submitted task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.task_status">
+<code class="descclassname">janta.views.</code><code class="descname">task_status</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.task_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function keeps track of the status of task by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="janta.views.user_home">
+<code class="descclassname">janta.views.</code><code class="descname">user_home</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#janta.views.user_home" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function handles the notification by request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>request</strong> (<em>http request</em>) – the request sent for the task</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">redirecting to the page according to http request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-janta">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-janta" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">janta</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">source</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ProjectJanta.html">ProjectJanta package</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">janta package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manage.html">manage module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">source</a><ul>
+      <li>Previous: <a href="ProjectJanta.html" title="previous chapter">ProjectJanta package</a></li>
+      <li>Next: <a href="janta.migrations.html" title="next chapter">janta.migrations package</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, __web_ghost__.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/janta.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

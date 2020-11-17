@@ -1,0 +1,107 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "janta/header.html" %}
+
+    <!--Custom lib -->
+    <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/static/css/index.css" rel="stylesheet" />
+
+</head>
+<body style="background-color:#e6ffff;">
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="/janta/index"> Janta Web App </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        {% if user.user_type == "Moderator" %}
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/moderator/"> Home </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/profile/?handle={{ user.user_handle }}"> Profile </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/messages/"> Messages </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/create-task/"> Create task </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/my-tasks/"> My tasks </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/logout"> Logout </a></li>
+                        {% elif user.user_type == "User" %}
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/user/"> Home </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/profile/?handle={{ user.user_handle }}"> Profile </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/ongoing-tasks/"> Ongoing tasks </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/overdue-tasks/"> Overdue tasks </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/submitted-tasks/"> Submitted tasks </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/messages/"> Messages </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/logout">Logout </a></li>
+                        {% elif user.user_type == "Admin" %}
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/admin/"> Home </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/profile/?handle={{ user.user_handle }}"> Profile </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/messages/"> Messages </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/admin-list-users/"> All Users </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/admin-list-tasks/"> All Tasks </a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/janta/logout"> Logout </a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+<header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-white font-weight-bold"> Welcome Janta </h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5"> Easily Create and distribute tasks in a team for better outputs. </p>
+                        {% if user == None %}
+                        <a class="btn btn-primary btn-xl btn-outline-light" href="/janta/register"><i class="fa fa-user-plus"></i>&nbsp; Register </a>
+                        <a class="btn btn-primary btn-xl btn-outline-light" href="/janta/login"><i class="fa fa-sign-in-alt"></i>&nbsp; Login </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </header>
+
+<!--<img style="display: block; margin-left: auto; margin-right: auto;" src="/static/img/person.gif" alt="notifications" width="460" height="460"/>-->
+
+<!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto"><p class="lead" style="text-align: center">We are introducing "JANTA", a web application that provides a central
+place where the team members can stay connected and distribute tasks
+among themselves. Here the team members can distribute task with
+deadlines/reminders, share files and pass messages to complete their given
+task. This web application can be used by teachers to distribute tasks with
+deadlines or just students who are working on group projects.</p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead" style="text-align: center">In this online semester collaborating with peers and team members to
+complete tasks and project has been difficult. This happens because the
+work is scattered on many platforms. There was no single platform where
+the teams can collaborate efficiently. Due to this pandemic most of the
+job is done from home so there was a need of a single platform that can
+be used to complete the task simply and efficiently.</p></div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>

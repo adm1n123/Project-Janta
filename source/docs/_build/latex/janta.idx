@@ -1,0 +1,174 @@
+\indexentry{ProjectJanta.settings (module)@\spxentry{ProjectJanta.settings}\spxextra{module}|hyperpage}{1}
+\indexentry{ProjectJanta.wsgi (module)@\spxentry{ProjectJanta.wsgi}\spxextra{module}|hyperpage}{1}
+\indexentry{ProjectJanta (module)@\spxentry{ProjectJanta}\spxextra{module}|hyperpage}{1}
+\indexentry{janta.migrations (module)@\spxentry{janta.migrations}\spxextra{module}|hyperpage}{2}
+\indexentry{janta.admin (module)@\spxentry{janta.admin}\spxextra{module}|hyperpage}{2}
+\indexentry{janta.apps (module)@\spxentry{janta.apps}\spxextra{module}|hyperpage}{2}
+\indexentry{JantaConfig (class in janta.apps)@\spxentry{JantaConfig}\spxextra{class in janta.apps}|hyperpage}{2}
+\indexentry{name (janta.apps.JantaConfig attribute)@\spxentry{name}\spxextra{janta.apps.JantaConfig attribute}|hyperpage}{2}
+\indexentry{janta.forms (module)@\spxentry{janta.forms}\spxextra{module}|hyperpage}{2}
+\indexentry{AddUserForm (class in janta.forms)@\spxentry{AddUserForm}\spxextra{class in janta.forms}|hyperpage}{2}
+\indexentry{base\_fields (janta.forms.AddUserForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.AddUserForm attribute}|hyperpage}{2}
+\indexentry{declared\_fields (janta.forms.AddUserForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.AddUserForm attribute}|hyperpage}{2}
+\indexentry{media (janta.forms.AddUserForm attribute)@\spxentry{media}\spxextra{janta.forms.AddUserForm attribute}|hyperpage}{2}
+\indexentry{ChangePasswordForm (class in janta.forms)@\spxentry{ChangePasswordForm}\spxextra{class in janta.forms}|hyperpage}{2}
+\indexentry{base\_fields (janta.forms.ChangePasswordForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.ChangePasswordForm attribute}|hyperpage}{2}
+\indexentry{declared\_fields (janta.forms.ChangePasswordForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.ChangePasswordForm attribute}|hyperpage}{2}
+\indexentry{media (janta.forms.ChangePasswordForm attribute)@\spxentry{media}\spxextra{janta.forms.ChangePasswordForm attribute}|hyperpage}{2}
+\indexentry{CreateTaskForm (class in janta.forms)@\spxentry{CreateTaskForm}\spxextra{class in janta.forms}|hyperpage}{2}
+\indexentry{base\_fields (janta.forms.CreateTaskForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.CreateTaskForm attribute}|hyperpage}{2}
+\indexentry{declared\_fields (janta.forms.CreateTaskForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.CreateTaskForm attribute}|hyperpage}{2}
+\indexentry{media (janta.forms.CreateTaskForm attribute)@\spxentry{media}\spxextra{janta.forms.CreateTaskForm attribute}|hyperpage}{2}
+\indexentry{task\_type\_choices (janta.forms.CreateTaskForm attribute)@\spxentry{task\_type\_choices}\spxextra{janta.forms.CreateTaskForm attribute}|hyperpage}{2}
+\indexentry{DeleteTaskForm (class in janta.forms)@\spxentry{DeleteTaskForm}\spxextra{class in janta.forms}|hyperpage}{2}
+\indexentry{base\_fields (janta.forms.DeleteTaskForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.DeleteTaskForm attribute}|hyperpage}{3}
+\indexentry{declared\_fields (janta.forms.DeleteTaskForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.DeleteTaskForm attribute}|hyperpage}{3}
+\indexentry{media (janta.forms.DeleteTaskForm attribute)@\spxentry{media}\spxextra{janta.forms.DeleteTaskForm attribute}|hyperpage}{3}
+\indexentry{EditProfileForm (class in janta.forms)@\spxentry{EditProfileForm}\spxextra{class in janta.forms}|hyperpage}{3}
+\indexentry{base\_fields (janta.forms.EditProfileForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.EditProfileForm attribute}|hyperpage}{3}
+\indexentry{declared\_fields (janta.forms.EditProfileForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.EditProfileForm attribute}|hyperpage}{3}
+\indexentry{gender\_choices (janta.forms.EditProfileForm attribute)@\spxentry{gender\_choices}\spxextra{janta.forms.EditProfileForm attribute}|hyperpage}{3}
+\indexentry{media (janta.forms.EditProfileForm attribute)@\spxentry{media}\spxextra{janta.forms.EditProfileForm attribute}|hyperpage}{3}
+\indexentry{LoginForm (class in janta.forms)@\spxentry{LoginForm}\spxextra{class in janta.forms}|hyperpage}{3}
+\indexentry{base\_fields (janta.forms.LoginForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.LoginForm attribute}|hyperpage}{3}
+\indexentry{declared\_fields (janta.forms.LoginForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.LoginForm attribute}|hyperpage}{3}
+\indexentry{media (janta.forms.LoginForm attribute)@\spxentry{media}\spxextra{janta.forms.LoginForm attribute}|hyperpage}{3}
+\indexentry{RegistrationForm (class in janta.forms)@\spxentry{RegistrationForm}\spxextra{class in janta.forms}|hyperpage}{3}
+\indexentry{base\_fields (janta.forms.RegistrationForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.RegistrationForm attribute}|hyperpage}{3}
+\indexentry{declared\_fields (janta.forms.RegistrationForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.RegistrationForm attribute}|hyperpage}{3}
+\indexentry{gender\_choices (janta.forms.RegistrationForm attribute)@\spxentry{gender\_choices}\spxextra{janta.forms.RegistrationForm attribute}|hyperpage}{3}
+\indexentry{media (janta.forms.RegistrationForm attribute)@\spxentry{media}\spxextra{janta.forms.RegistrationForm attribute}|hyperpage}{3}
+\indexentry{user\_type\_choices (janta.forms.RegistrationForm attribute)@\spxentry{user\_type\_choices}\spxextra{janta.forms.RegistrationForm attribute}|hyperpage}{3}
+\indexentry{RemoveUserForm (class in janta.forms)@\spxentry{RemoveUserForm}\spxextra{class in janta.forms}|hyperpage}{3}
+\indexentry{base\_fields (janta.forms.RemoveUserForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.RemoveUserForm attribute}|hyperpage}{4}
+\indexentry{declared\_fields (janta.forms.RemoveUserForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.RemoveUserForm attribute}|hyperpage}{4}
+\indexentry{media (janta.forms.RemoveUserForm attribute)@\spxentry{media}\spxextra{janta.forms.RemoveUserForm attribute}|hyperpage}{4}
+\indexentry{SendMessageForm (class in janta.forms)@\spxentry{SendMessageForm}\spxextra{class in janta.forms}|hyperpage}{4}
+\indexentry{base\_fields (janta.forms.SendMessageForm attribute)@\spxentry{base\_fields}\spxextra{janta.forms.SendMessageForm attribute}|hyperpage}{4}
+\indexentry{declared\_fields (janta.forms.SendMessageForm attribute)@\spxentry{declared\_fields}\spxextra{janta.forms.SendMessageForm attribute}|hyperpage}{4}
+\indexentry{media (janta.forms.SendMessageForm attribute)@\spxentry{media}\spxextra{janta.forms.SendMessageForm attribute}|hyperpage}{4}
+\indexentry{janta.models (module)@\spxentry{janta.models}\spxextra{module}|hyperpage}{4}
+\indexentry{Messages (class in janta.models)@\spxentry{Messages}\spxextra{class in janta.models}|hyperpage}{4}
+\indexentry{set\_message() (janta.models.Messages method)@\spxentry{set\_message()}\spxextra{janta.models.Messages method}|hyperpage}{4}
+\indexentry{Notification (class in janta.models)@\spxentry{Notification}\spxextra{class in janta.models}|hyperpage}{4}
+\indexentry{set\_notification() (janta.models.Notification method)@\spxentry{set\_notification()}\spxextra{janta.models.Notification method}|hyperpage}{4}
+\indexentry{Task (class in janta.models)@\spxentry{Task}\spxextra{class in janta.models}|hyperpage}{4}
+\indexentry{set\_task() (janta.models.Task method)@\spxentry{set\_task()}\spxextra{janta.models.Task method}|hyperpage}{5}
+\indexentry{User (class in janta.models)@\spxentry{User}\spxextra{class in janta.models}|hyperpage}{5}
+\indexentry{set\_user() (janta.models.User method)@\spxentry{set\_user()}\spxextra{janta.models.User method}|hyperpage}{5}
+\indexentry{UserModeratorMap (class in janta.models)@\spxentry{UserModeratorMap}\spxextra{class in janta.models}|hyperpage}{5}
+\indexentry{set\_user\_moderator() (janta.models.UserModeratorMap method)@\spxentry{set\_user\_moderator()}\spxextra{janta.models.UserModeratorMap method}|hyperpage}{5}
+\indexentry{UserTaskMap (class in janta.models)@\spxentry{UserTaskMap}\spxextra{class in janta.models}|hyperpage}{5}
+\indexentry{set\_user\_task\_map() (janta.models.UserTaskMap method)@\spxentry{set\_user\_task\_map()}\spxextra{janta.models.UserTaskMap method}|hyperpage}{5}
+\indexentry{accept\_submission() (in module janta.models)@\spxentry{accept\_submission()}\spxextra{in module janta.models}|hyperpage}{5}
+\indexentry{add\_users() (in module janta.models)@\spxentry{add\_users()}\spxextra{in module janta.models}|hyperpage}{5}
+\indexentry{admin\_del\_moderator() (in module janta.models)@\spxentry{admin\_del\_moderator()}\spxextra{in module janta.models}|hyperpage}{5}
+\indexentry{admin\_del\_task() (in module janta.models)@\spxentry{admin\_del\_task()}\spxextra{in module janta.models}|hyperpage}{5}
+\indexentry{admin\_del\_user() (in module janta.models)@\spxentry{admin\_del\_user()}\spxextra{in module janta.models}|hyperpage}{5}
+\indexentry{admin\_get\_task\_list() (in module janta.models)@\spxentry{admin\_get\_task\_list()}\spxextra{in module janta.models}|hyperpage}{5}
+\indexentry{admin\_get\_usr\_modr\_list() (in module janta.models)@\spxentry{admin\_get\_usr\_modr\_list()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{change\_password() (in module janta.models)@\spxentry{change\_password()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{delete\_message() (in module janta.models)@\spxentry{delete\_message()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{delete\_task() (in module janta.models)@\spxentry{delete\_task()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_added\_user() (in module janta.models)@\spxentry{get\_added\_user()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_messages() (in module janta.models)@\spxentry{get\_messages()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_my\_tasks() (in module janta.models)@\spxentry{get\_my\_tasks()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_not\_accepted\_submissions() (in module janta.models)@\spxentry{get\_not\_accepted\_submissions()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_notifications() (in module janta.models)@\spxentry{get\_notifications()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_ongoing\_tasks() (in module janta.models)@\spxentry{get\_ongoing\_tasks()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_overdue\_tasks() (in module janta.models)@\spxentry{get\_overdue\_tasks()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_recent\_ongoing\_tasks() (in module janta.models)@\spxentry{get\_recent\_ongoing\_tasks()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_submission\_status() (in module janta.models)@\spxentry{get\_submission\_status()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_submitted\_tasks() (in module janta.models)@\spxentry{get\_submitted\_tasks()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_task() (in module janta.models)@\spxentry{get\_task()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_user() (in module janta.models)@\spxentry{get\_user()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_user\_by\_type() (in module janta.models)@\spxentry{get\_user\_by\_type()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{get\_user\_task\_map() (in module janta.models)@\spxentry{get\_user\_task\_map()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{insert\_task() (in module janta.models)@\spxentry{insert\_task()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{mark\_as\_read() (in module janta.models)@\spxentry{mark\_as\_read()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{modify\_task() (in module janta.models)@\spxentry{modify\_task()}\spxextra{in module janta.models}|hyperpage}{6}
+\indexentry{notify\_mapped\_users() (in module janta.models)@\spxentry{notify\_mapped\_users()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{profile\_edit() (in module janta.models)@\spxentry{profile\_edit()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{reject\_submission() (in module janta.models)@\spxentry{reject\_submission()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{remove\_user() (in module janta.models)@\spxentry{remove\_user()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{reset\_db() (in module janta.models)@\spxentry{reset\_db()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{send\_message() (in module janta.models)@\spxentry{send\_message()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{sent\_notification() (in module janta.models)@\spxentry{sent\_notification()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{submit\_task() (in module janta.models)@\spxentry{submit\_task()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{user\_register() (in module janta.models)@\spxentry{user\_register()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{validate\_credentials() (in module janta.models)@\spxentry{validate\_credentials()}\spxextra{in module janta.models}|hyperpage}{7}
+\indexentry{janta.mydb (module)@\spxentry{janta.mydb}\spxextra{module}|hyperpage}{7}
+\indexentry{create\_schema() (in module janta.mydb)@\spxentry{create\_schema()}\spxextra{in module janta.mydb}|hyperpage}{7}
+\indexentry{dictfetchall() (in module janta.mydb)@\spxentry{dictfetchall()}\spxextra{in module janta.mydb}|hyperpage}{7}
+\indexentry{execute\_query() (in module janta.mydb)@\spxentry{execute\_query()}\spxextra{in module janta.mydb}|hyperpage}{7}
+\indexentry{execute\_update() (in module janta.mydb)@\spxentry{execute\_update()}\spxextra{in module janta.mydb}|hyperpage}{7}
+\indexentry{namedtuplefetchall() (in module janta.mydb)@\spxentry{namedtuplefetchall()}\spxextra{in module janta.mydb}|hyperpage}{7}
+\indexentry{janta.tests (module)@\spxentry{janta.tests}\spxextra{module}|hyperpage}{7}
+\indexentry{janta.viewhelper (module)@\spxentry{janta.viewhelper}\spxextra{module}|hyperpage}{7}
+\indexentry{convert\_to\_json() (in module janta.viewhelper)@\spxentry{convert\_to\_json()}\spxextra{in module janta.viewhelper}|hyperpage}{7}
+\indexentry{is\_admin() (in module janta.viewhelper)@\spxentry{is\_admin()}\spxextra{in module janta.viewhelper}|hyperpage}{8}
+\indexentry{is\_description() (in module janta.viewhelper)@\spxentry{is\_description()}\spxextra{in module janta.viewhelper}|hyperpage}{8}
+\indexentry{is\_email() (in module janta.viewhelper)@\spxentry{is\_email()}\spxextra{in module janta.viewhelper}|hyperpage}{8}
+\indexentry{is\_female() (in module janta.viewhelper)@\spxentry{is\_female()}\spxextra{in module janta.viewhelper}|hyperpage}{8}
+\indexentry{is\_file\_name() (in module janta.viewhelper)@\spxentry{is\_file\_name()}\spxextra{in module janta.viewhelper}|hyperpage}{8}
+\indexentry{is\_gender() (in module janta.viewhelper)@\spxentry{is\_gender()}\spxextra{in module janta.viewhelper}|hyperpage}{8}
+\indexentry{is\_handle() (in module janta.viewhelper)@\spxentry{is\_handle()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_info() (in module janta.viewhelper)@\spxentry{is\_info()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_male() (in module janta.viewhelper)@\spxentry{is\_male()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_moderator() (in module janta.viewhelper)@\spxentry{is\_moderator()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_name() (in module janta.viewhelper)@\spxentry{is\_name()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_password() (in module janta.viewhelper)@\spxentry{is\_password()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_task\_id() (in module janta.viewhelper)@\spxentry{is\_task\_id()}\spxextra{in module janta.viewhelper}|hyperpage}{9}
+\indexentry{is\_task\_type() (in module janta.viewhelper)@\spxentry{is\_task\_type()}\spxextra{in module janta.viewhelper}|hyperpage}{10}
+\indexentry{is\_text() (in module janta.viewhelper)@\spxentry{is\_text()}\spxextra{in module janta.viewhelper}|hyperpage}{10}
+\indexentry{is\_upload() (in module janta.viewhelper)@\spxentry{is\_upload()}\spxextra{in module janta.viewhelper}|hyperpage}{10}
+\indexentry{is\_user() (in module janta.viewhelper)@\spxentry{is\_user()}\spxextra{in module janta.viewhelper}|hyperpage}{10}
+\indexentry{is\_user\_type() (in module janta.viewhelper)@\spxentry{is\_user\_type()}\spxextra{in module janta.viewhelper}|hyperpage}{10}
+\indexentry{save\_file() (in module janta.viewhelper)@\spxentry{save\_file()}\spxextra{in module janta.viewhelper}|hyperpage}{10}
+\indexentry{set\_session() (in module janta.viewhelper)@\spxentry{set\_session()}\spxextra{in module janta.viewhelper}|hyperpage}{11}
+\indexentry{validate\_add\_user() (in module janta.viewhelper)@\spxentry{validate\_add\_user()}\spxextra{in module janta.viewhelper}|hyperpage}{11}
+\indexentry{validate\_change\_password() (in module janta.viewhelper)@\spxentry{validate\_change\_password()}\spxextra{in module janta.viewhelper}|hyperpage}{11}
+\indexentry{validate\_create\_task() (in module janta.viewhelper)@\spxentry{validate\_create\_task()}\spxextra{in module janta.viewhelper}|hyperpage}{11}
+\indexentry{validate\_delete\_task() (in module janta.viewhelper)@\spxentry{validate\_delete\_task()}\spxextra{in module janta.viewhelper}|hyperpage}{11}
+\indexentry{validate\_login() (in module janta.viewhelper)@\spxentry{validate\_login()}\spxextra{in module janta.viewhelper}|hyperpage}{12}
+\indexentry{validate\_modify\_task() (in module janta.viewhelper)@\spxentry{validate\_modify\_task()}\spxextra{in module janta.viewhelper}|hyperpage}{12}
+\indexentry{validate\_profile\_edit() (in module janta.viewhelper)@\spxentry{validate\_profile\_edit()}\spxextra{in module janta.viewhelper}|hyperpage}{12}
+\indexentry{validate\_registration() (in module janta.viewhelper)@\spxentry{validate\_registration()}\spxextra{in module janta.viewhelper}|hyperpage}{12}
+\indexentry{validate\_remove\_user() (in module janta.viewhelper)@\spxentry{validate\_remove\_user()}\spxextra{in module janta.viewhelper}|hyperpage}{12}
+\indexentry{validate\_send\_message() (in module janta.viewhelper)@\spxentry{validate\_send\_message()}\spxextra{in module janta.viewhelper}|hyperpage}{12}
+\indexentry{janta.views (module)@\spxentry{janta.views}\spxextra{module}|hyperpage}{13}
+\indexentry{accept\_submission() (in module janta.views)@\spxentry{accept\_submission()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{add\_users() (in module janta.views)@\spxentry{add\_users()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{admin() (in module janta.views)@\spxentry{admin()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{admin\_del\_moderator() (in module janta.views)@\spxentry{admin\_del\_moderator()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{admin\_del\_task() (in module janta.views)@\spxentry{admin\_del\_task()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{admin\_del\_user() (in module janta.views)@\spxentry{admin\_del\_user()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{change\_password() (in module janta.views)@\spxentry{change\_password()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{create\_task() (in module janta.views)@\spxentry{create\_task()}\spxextra{in module janta.views}|hyperpage}{13}
+\indexentry{delete\_messages() (in module janta.views)@\spxentry{delete\_messages()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{delete\_task() (in module janta.views)@\spxentry{delete\_task()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{edit\_profile() (in module janta.views)@\spxentry{edit\_profile()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{get\_messages() (in module janta.views)@\spxentry{get\_messages()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{get\_notifications() (in module janta.views)@\spxentry{get\_notifications()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{index() (in module janta.views)@\spxentry{index()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{login() (in module janta.views)@\spxentry{login()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{logout() (in module janta.views)@\spxentry{logout()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{mark\_as\_read() (in module janta.views)@\spxentry{mark\_as\_read()}\spxextra{in module janta.views}|hyperpage}{14}
+\indexentry{moderator\_home() (in module janta.views)@\spxentry{moderator\_home()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{modify\_task() (in module janta.views)@\spxentry{modify\_task()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{my\_tasks() (in module janta.views)@\spxentry{my\_tasks()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{ongoing\_tasks() (in module janta.views)@\spxentry{ongoing\_tasks()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{overdue\_tasks() (in module janta.views)@\spxentry{overdue\_tasks()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{profile() (in module janta.views)@\spxentry{profile()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{register() (in module janta.views)@\spxentry{register()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{reject\_submission() (in module janta.views)@\spxentry{reject\_submission()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{remove\_user() (in module janta.views)@\spxentry{remove\_user()}\spxextra{in module janta.views}|hyperpage}{15}
+\indexentry{reset\_database() (in module janta.views)@\spxentry{reset\_database()}\spxextra{in module janta.views}|hyperpage}{16}
+\indexentry{send\_message() (in module janta.views)@\spxentry{send\_message()}\spxextra{in module janta.views}|hyperpage}{16}
+\indexentry{submit\_task() (in module janta.views)@\spxentry{submit\_task()}\spxextra{in module janta.views}|hyperpage}{16}
+\indexentry{submitted\_tasks() (in module janta.views)@\spxentry{submitted\_tasks()}\spxextra{in module janta.views}|hyperpage}{16}
+\indexentry{task\_status() (in module janta.views)@\spxentry{task\_status()}\spxextra{in module janta.views}|hyperpage}{16}
+\indexentry{user\_home() (in module janta.views)@\spxentry{user\_home()}\spxextra{in module janta.views}|hyperpage}{16}
+\indexentry{janta (module)@\spxentry{janta}\spxextra{module}|hyperpage}{16}
+\indexentry{manage (module)@\spxentry{manage}\spxextra{module}|hyperpage}{16}
+\indexentry{main() (in module manage)@\spxentry{main()}\spxextra{in module manage}|hyperpage}{16}

@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "janta/header.html" %}
+
+    <!--Custom lib -->
+</head>
+<body>
+
+{% include "janta/nav-links.html" %}
+
+<!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0"> All Users and Moderators</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1">
+                            <h3>{{ message }}</h3>
+                            <h4>Recently registered users and moderators</h4>
+
+                            {% for usr in users_moderators_list %}
+                                <div class="container p-3 my-3 border">
+                                {% if usr.user_type == "User" %}
+                                    <form action='/janta/admin-del-user_list/' method='POST'>
+                                        {% csrf_token %}
+                                        <input type="text" name="del_user_handle" hidden value="{{ usr.user_handle }}">
+                                        User: <a style="color: white;" href="/janta/profile/?handle={{ usr.user_handle }}">{{ usr.user_handle }}</a>
+                                        <button class="btn btn-primary btn-l btn-outline-light" type="submit"><i class="fa fa-trash"></i> Delete User</button>
+                                    </form>
+                                {% elif usr.user_type == "Moderator" %}
+                                    <form action='/janta/admin-del-moderator_list/' method='POST'>
+                                        {% csrf_token %}
+                                        <input type="text" name="del_moderator_handle" hidden value="{{ usr.user_handle }}">
+                                        Moderator: <a style="color: white;" href="/janta/profile/?handle={{ usr.user_handle }}">{{ usr.user_handle }}</a>
+                                        <button class="btn btn-primary btn-l btn-outline-light" type="submit"><i class="fa fa-trash"></i> Delete Moderator</button>
+                                    </form>
+                                {% endif %}
+                                </div>
+                                <br>
+                            {% empty %}
+                                No users/moderators registered.
+                            {% endfor %}
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="container p-3 my-3 border">
+                                {% include "janta/notification-div.html" %}
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+
+</body>
+</html>

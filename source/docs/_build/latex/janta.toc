@@ -1,0 +1,27 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}source}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}ProjectJanta package}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Submodules}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}ProjectJanta.asgi module}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}ProjectJanta.settings module}{1}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}ProjectJanta.urls module}{1}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}ProjectJanta.wsgi module}{1}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Module contents}{1}{subsection.1.1.6}%
+\contentsline {section}{\numberline {1.2}janta package}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Subpackages}{1}{subsection.1.2.1}%
+\contentsline {subsubsection}{janta.migrations package}{1}{subsubsection*.3}%
+\contentsline {paragraph}{Module contents}{2}{paragraph*.4}%
+\contentsline {subsection}{\numberline {1.2.2}Submodules}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}janta.admin module}{2}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}janta.apps module}{2}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}janta.forms module}{2}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}janta.models module}{4}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}janta.mydb module}{7}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}janta.tests module}{7}{subsection.1.2.8}%
+\contentsline {subsection}{\numberline {1.2.9}janta.viewhelper module}{7}{subsection.1.2.9}%
+\contentsline {subsection}{\numberline {1.2.10}janta.views module}{13}{subsection.1.2.10}%
+\contentsline {subsection}{\numberline {1.2.11}Module contents}{16}{subsection.1.2.11}%
+\contentsline {section}{\numberline {1.3}manage module}{16}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Indices and tables}{17}{chapter.2}%
+\contentsline {chapter}{Python Module Index}{19}{section*.165}%
+\contentsline {chapter}{Index}{21}{section*.166}%

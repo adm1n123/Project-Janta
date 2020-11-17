@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "janta/header.html" %}
+
+    <!--Custom lib -->
+</head>
+<body>
+
+{% include "janta/nav-links.html" %}
+
+<!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0"> Moderator's Home </h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1">
+                            <div class="container p-3 my-3 border">
+                            <form action='/janta/add-users/' method='POST'>
+                                {% csrf_token %}
+                                {{ add_user_form.as_p }}
+                                <button class="btn btn-primary btn-l btn-outline-light" type="submit"><i class="fa fa-user-plus"></i> Assign User</button>
+                                <p>{{ add_user_message }}</p>
+                            </form>
+                            </div>
+
+                            <div class="container p-3 my-3 border">
+                            <form action='/janta/remove-user/' method='POST'>
+                                {% csrf_token %}
+                                {{ remove_user_form.as_p }}
+                                <button class="btn btn-primary btn-l btn-outline-light" type="submit"><i class="fa fa-trash"></i> Remove User</button>
+                                <p>{{ remove_user_message }}</p>
+                            </form>
+                            </div>
+
+                            <div class="container p-3 my-3 border">
+                            <form action='/janta/delete-task/' method='POST'>
+                                {% csrf_token %}
+                                {{ delete_task_form.as_p }}
+                                <button class="btn btn-primary btn-l btn-outline-light" type="submit"><i class="fa fa-trash"></i> Delete Task</button>
+                                <p>{{ delete_form_message }}</p>
+                            </form>
+                            </div>
+
+                            <p>Recent tasks</p>
+                            {% for task in recent_tasks %}
+                                <div class="container p-3 my-3 border">
+                                <ul>
+                                    <li>Task Id: {{ task.task_id }}</li>
+                                    <li>Type: {{ task.task_type }}</li>
+                                    <li>Description: {{ task.description }}</li>
+                                    <li>Deadline: {{ task.deadline }}</li>
+                                    <li>Created on: {{ task.creation_time }}</li>
+                                </ul>
+                                <a href="/janta/modify-task/?task_id={{ task.task_id }}"><button class="btn btn-primary btn-l btn-outline-light"><i class="fa fa-edit"></i> Modify task</button></a>
+                                &nbsp;&nbsp;<a href="/janta/task-status/?task_id={{ task.task_id }}"><button class="btn btn-primary btn-l btn-outline-light"><i class="fa fa-info-circle"></i> Task status</button></a>
+                                </div>
+                            {% empty %}
+                                <p> No recent tasks </p>
+                            {% endfor %}
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="container p-3 my-3 border">
+                                {% include "janta/notification-div.html" %}
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+
+</body>
+</html>
+
+
+
+
+
