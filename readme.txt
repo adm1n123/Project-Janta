@@ -4,7 +4,10 @@ Abhinandan Singh(203050031 abhinandan) frontend
 Rajendra(203050094 rajcseosian) backend
 
 
-
+Motivation:
+In this online semester collaborating with peers and team members to complete tasks and project has been difficult. This happens because the
+work is scattered on many platforms. There was no single platform where the teams can collaborate efficiently. Due to this pandemic most of the
+job is done from home so there was a need of a single platform that can be used to complete the task simply and efficiently.
 
 How to use:
 
