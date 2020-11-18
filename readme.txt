@@ -1,8 +1,17 @@
+Deepak Singh Baghel(203050005 deepakbaghel) backend
+Ankush Agarwal(203050007 ankushagrawal) frontend
+Abhinandan Singh(203050031 abhinandan) frontend
+Rajendra(203050094 rajcseosian) backend
+
+
+
+
+How to use:
+
 Install python 3.8 if not installed already
 $sudo apt install python 3.8
 
-
-1.1 Clone the repository
+1.1 Clone the repository  https://git.cse.iitb.ac.in/deepakbaghel/ProjectJanta/tree/master/
 
 
 1.2.1 Install virtual environment if installed go to step 1.2.2
